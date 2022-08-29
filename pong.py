@@ -36,8 +36,8 @@ ball.speed(0)
 ball.shape('circle')
 ball.color('orange')
 ball.penup()
-ball.dx = 0.5
-ball.dy = 0.5
+ball.dx = 0.8
+ball.dy = 0.8
 
 #Pen
 pen = turtle.Turtle()
