@@ -1,3 +1,8 @@
+!git add "pong.py"
+!git commit -m "my commit"
+!git push origin master
+!git config --global user.email "guntassandhu40@gmail.com"
+! config --global user.name "Guntas"
 import turtle
 import winsound
 
@@ -31,8 +36,8 @@ ball.speed(0)
 ball.shape('circle')
 ball.color('orange')
 ball.penup()
-ball.dx = 0.15
-ball.dy = 0.15
+ball.dx = 0.5
+ball.dy = 0.5
 
 #Pen
 pen = turtle.Turtle()
@@ -117,40 +122,7 @@ while True:
         ball.dx *= -1
         
         
-                 
-   
-    
-        
-       
-                  
-        
-        
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
+                
           
           
           
